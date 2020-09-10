@@ -1,5 +1,7 @@
-#Author: Evelyn Moore eim5178@psu.edu
-#Collaborator: None
+# Author: Evelyn Moore eim5178@psu.edu
+# Collaborator: None
+# Section: 4
+
 def  getGradePoint(course_grade):
   if course_grade == 'A' :
     gp_course = 4.0

@@ -5,34 +5,25 @@
 def  getGradePoint(course_grade):
   if course_grade == 'A' :
     gp_course = 4.0
-    return gp_course
   elif course_grade == 'A-' :
     gp_course = 3.67
-    return gp_course
   elif course_grade == 'B+' :
     gp_course = 3.33
-    return gp_course
   elif course_grade == 'B' :
     gp_course = 3.0
-    return gp_course
   elif course_grade == 'B-' :
     gp_course = 2.67
-    return gp_course
   elif course_grade == 'C+':
     gp_course = 2.33
-    return gp_course
   elif course_grade == 'C' :
     gp_course = 2.0
-    return gp_course
   elif course_grade == 'D' :
     gp_course = 1.0
-    return gp_course
   elif course_grade == 'F' :
     gp_course = 0.0
-    return gp_course
   else:
     gp_course = 0.0
-    return gp_course
+  return gp_course
 
 def run():
   calc_num = 0
